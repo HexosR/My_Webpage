@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>INDEX</title>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="styleCSS.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<div class="banner">
+    <a href="https://www.youtube.com/"><img src="gc_banner_leaves_green.png" alt="logo"></a>
+</div>
+
+<div class="menu">
+    <h1>MENU</h1>
+    <ul>
+        <li><a href="CV.html">CV</a></li>
+        <li><a href="http://users.aber.ac.uk/rom57/wordpress/">Wordpress</a></li>
+        <li><a href="http://users.aber.ac.uk/rom57/webshop/catalog/">Webshop</a></li>
+        <li><a href="about.html">About my work</a></li>
+    </ul>
+</div>
+
+<div class="form">
+    <form id="user" name="myForm">
+        <p>User's Name: <input type="text" name="fname" placeholder="Put your name here" required></p>
+        <p>Grade:
+        <select id="grade">
+            <option value=0>0</option>
+            <option value=1>1</option>
+            <option value=2>2</option>
+            <option value=3>3</option>
+            <option value=4>4</option>
+            <option value=5>5</option>
+        </select></p>
+        <input type="button" onclick="return output()" value="Submit">
+        <p id="submit"></p>
+    </form>
+</div>
+
+<div class="main">
+    <p> The information provided on this and other pages by me, Robert Mlynarczyk (rom57@aber.ac.uk), is under my own
+        personal responsibility and not that of Aberystwyth University. Similarly, any opinions expressed are my own and
+        are in no way to be taken as those of A.U. The use of the University’s logo or crest is not allowed on
+        individual user’s web pages.</p>
+</div>
+<div class="click"><p id="date" onclick="showMeDate()">Click here if you want to see the date of the last modification
+    of this page.</p></div>
+</body>
+</html>

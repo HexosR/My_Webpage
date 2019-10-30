@@ -1,0 +1,94 @@
+.banner img {
+    border-size: thin 20px;
+    border: solid olive;
+    width: 100%;
+    height: 150px;
+}
+
+form {
+    color: white;
+}
+
+body {
+    background-color: #005000;
+	width:auto;
+	height: auto;
+}
+
+.menu {
+    background-image: url("menu-background.jpg");
+    border-width: thin 2px;
+    border-style: solid;
+    text-decoration: underline;
+    font-family: Arial;
+    float: left;
+	height: 1000px;
+	width: auto;
+	padding-right: 10px;
+}
+
+.menu h1:hover {
+    background-color: #008700;
+    width: 100%;
+}
+
+.main {
+	border-width: thin 4px;
+	border: solid #550000;
+    background-color: #000000;
+	color: white;
+	width: auto;
+}
+.describe img{
+	width:100%;
+	height:auto;
+}
+.describe {
+	border-width: thin 4px;
+	border: solid #550000;
+    background-color: #003000;
+	color: white;
+	width: auto;
+}
+.click {
+    color: white;
+}
+
+
+
+@media screen and (min-width: 1200px){
+    .menu{
+		width: 100%;
+        height: 100%;
+		padding-right: 0px;
+    }
+    .main {
+		padding-left: 10px;
+        float: right top;
+    }
+}
+
+@media screen and (max-width: 380px){
+    body {
+        float: bottom;
+    }
+    .main {
+        background-color: #009900;
+        width: 100%;
+        height: 100%;
+        border: solid black;
+    }
+    .menu {
+        border-size: thin 2px;
+        border: solid black;
+        font-family: Helvetica;
+        float: top;
+        width: 100%;
+		height: auto;
+		padding-right:0px;
+    }
+    .form{
+        float: bottom;
+    }
+}
+
